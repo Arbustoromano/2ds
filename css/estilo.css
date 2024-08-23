@@ -1,5 +1,79 @@
 h1{
     
-    color:red
+    color:#38251f
+    
+h1}
 
+/* /css/estilo.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 100;
+    padding: 0;
+    color: #5b3a2f;
+    background-color: #a0877e;
+}
+
+header {
+    background-color: #704f43;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d1bbb3;
+    font-weight: bold;
+}
+
+h1 {
+    color: #5b3a2f;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #a0877e;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #a0877e;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #704f43;
+    color: #a0877e;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #a0877e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

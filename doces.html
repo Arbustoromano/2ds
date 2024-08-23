@@ -6,9 +6,103 @@
     <title>Doces</title>
     <meta name="description" content="Ache o melhor doce para adoçar sua vida!">
     <link rel="stylesheet" href="./css/doces.css">
-
 </head>
 <body>
-    <h1> DOCES</h1>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="/img/logo.jpg" alt="Logo da Padaria Paraíso" width='80' height='80'></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="paes.html">Pães</a></li>
+                    <li><a href="doces.html">Doces</a></li>
+                    <li><a href="salgados.html">Salgados</a></li>
+                    <li><a href="outros.html">Outros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Doces</h1>
+            <p>Encontre a variedade mais deliciosa de doces para adoçar seu dia.</p>
+        </section>
+
+        <section class="gallery">
+            <h2>Nossos Doces</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="./img/donuts.jpg" alt="DONUTS">
+                    <p>DONUTS</p>
+                    <p>R$ 11,00</p>
+                    <button onclick="addToCart('donuts', 11.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/8548e87e6dad2d5984d786372ca9fdac.jpg" alt="CAROLINA">
+                    <p>CAROLINA</p>
+                    <p>R$ 2,99</p>
+                    <button onclick="addToCart('carolina', 2,99)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/Petit-gateau-de-doce-de-leite-768x432.jpg" alt="PETIT GATEAU">
+                    <p>PETIT GATEAU</p>
+                    <p>R$ 15,00</p>
+                    <button onclick="addToCart('petit gateau', 15.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/macaron.jpg" alt="macaron">
+                    <p>MACARON</p>
+                    <p>R$ 12,00</p>
+                    <button onclick="addToCart('macaron', 12.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/bolo-chocolate.jpg" alt="BOLO DE CHOCOLATE">
+                    <p>BOLO DE CHOCOLATE</p>
+                    <p>R$ 12,00</p>
+                    <button onclick="addToCart('=bolo-chocolate', 12.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/torta.jpg" alt="TORTA COOKIE">
+                    <p>TORTA COOKIE</p>
+                    <p>R$ 19,00</p>
+                    <button onclick="addToCart('torta cookie', 19.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/cone trufado.jpg" alt="CONE TRUFADO">
+                    <p>CONE TRUFADO</p>
+                    <p>R$ 9,00</p>
+                    <button onclick="addToCart('cone trufado', 9.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/ovo trufado.jpeg" alt="OVO TRUFADO">
+                    <p>OVO TRUFADO</p>
+                    <p>R$ 11,00</p>
+                    <button onclick="addToCart('ovo trufado', 11.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/sonho.jpg" alt="SONHO">
+                    <p>SONHO</p>
+                    <p>R$ 5,99</p>
+                    <button onclick="addToCart('sonho', 5.99)">Comprar</button>
+                </div>
+                <!-- Adicione mais itens conforme necessário -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Padaria Paraíso. Todos os direitos reservados.</p>
+            <p><a href="mailto:contato@padariaparaiso.com">Contato</a></p>
+            <div class="social-media">
+                <a href="https://facebook.com/padariaparaiso">Facebook</a>
+                <a href="https://instagram.com/padariaparaiso">Instagram</a>
+                <!-- Adicione outros links de redes sociais -->
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

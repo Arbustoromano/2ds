@@ -1,15 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossos Pães</title>
-    <meta name="description" content="Os melhores pães que você já experimentou!">
+    <title>Doces</title>
+    <meta name="description" content="Ache o melhor pão!">
     <link rel="stylesheet" href="./css/paes.css">
-
 </head>
 <body>
-    <h1>PAẼS</h1>
-    <img src="./img/paes.jpg">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="/img/logo.jpg" alt="Logo da Padaria Paraíso" width='80' height='80'></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="paes.html">Pães</a></li>
+                    <li><a href="doces.html">Doces</a></li>
+                    <li><a href="salgados.html">Salgados</a></li>
+                    <li><a href="outros.html">Outros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Pães</h1>
+            <p>Do café da manhã ao lanche da tarde, nossos pães acompanham você.</p>
+        </section>
+
+        <section class="gallery">
+            <h2>Nossos Pães</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="./img/pao branco.jpg" alt="PÃO BRANCO">
+                    <p>PÃO BRANCO</p>
+                    <p>R$ 0,75</p>
+                    <button onclick="addToCart('Cpão branco', 0.75)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/pao australiano.jpeg" alt="PÃO AUSTRALIANO">
+                    <p>PÃO AUSTRALIANO</p>
+                    <p>R$ 5,00</p>
+                    <button onclick="addToCart('pão australiano', 5.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/brioche.jpg" alt="BRIOCHE">
+                    <p>BRIOCHE</p>
+                    <p>R$ 1,00</p>
+                    <button onclick="addToCart('brioche', 1.00)">Comprar</button>
+        
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/pao de queijo.jpg" alt="PÃO DE QUEIJO">
+                    <p>PÃO DE QUEIJO</p>
+                    <p>R$ 1,00</p>
+                    <button onclick="addToCart('pao de queijo', 1.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/pao de centeio.jpg" alt="PÃO DE CENTEIO">
+                    <p>PÃO DE CENTEIO</p>
+                    <p>R$ 8,00</p>
+                    <button onclick="addToCart('pao de centeio', 8.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/pao sirio.jpg" alt="PÃO SIRIO">
+                    <p>PÃO SÍRIO</p>
+                    <p>R$ 5,00</p>
+                    <button onclick="addToCart('pão sirio', 5.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/pao de forma.jpg" alt="PÃO DE FORMA">
+                    <p>PÃO DE FORMA</p>
+                    <p>R$ 10,00</p>
+                    <button onclick="addToCart('pão de forma', 10.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/pao-de-batata.jpg" alt="PÃO DE BATATA">
+                    <p>PÃO DE BATATA</p>
+                    <p>R$ 9,95</p>
+                    <button onclick="addToCart('pao-de-batata', 9.95)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/croissant.jpg" alt="CROISSANT">
+                    <p>CROISSANT</p>
+                    <p>R$ 12,00</p>
+                    <button onclick="addToCart('croissant', 12.00)">Comprar</button>
+                </div>
+               
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Padaria Paraíso. Todos os direitos reservados.</p>
+            <p><a href="mailto:contato@padariaparaiso.com">Contato</a></p>
+            <div class="social-media">
+                <a href="https://facebook.com/padariaparaiso">Facebook</a>
+                <a href="https://instagram.com/padariaparaiso">Instagram</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

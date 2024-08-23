@@ -1,5 +1,140 @@
 h1{
     
-    color:chocolate
+    color:#38251f
 
+} 
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #38251f;
+    background-color: #a0877e;
+}
+
+header {
+    background-color: #5b3a2f;
+    border-bottom: 1px solid #a0877e;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #704f43;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: white;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.gallery h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+    background-color: #704f43;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; 
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: white;
+}
+
+footer {
+    background-color: #704f43;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #704f43;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #704f43;
 }

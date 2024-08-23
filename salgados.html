@@ -1,14 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salgados </title>
-    <meta name="description" content="Nossos melhores doces!">
+    <title>Doces</title>
+    <meta name="description" content="Coma um salgado para ser feliz!">
     <link rel="stylesheet" href="./css/salgados.css">
-
 </head>
 <body>
-    <h1>SALGADOS</h1>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="/img/logo.jpg" alt="Logo da Padaria Paraíso" width='80' height='80'></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="paes.html">Pães</a></li>
+                    <li><a href="doces.html">Doces</a></li>
+                    <li><a href="salgados.html">Salgados</a></li>
+                    <li><a href="outros.html">Outros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Salgados</h1>
+            <p>Qual salgado você vai escolher hoje?</p>
+        </section>
+
+        <section class="gallery">
+            <h2>Nossos Salgados</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="./img/coxinha.jpg" alt="COXINHA">
+                    <p>COXINHA</p>
+                    <p>R$ 1,00</p>
+                    <button onclick="addToCart('coxinha', 1.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/risole.jpg" alt="RISOLE">
+                    <p>RISOLE</p>
+                    <p>R$ 2,00</p>
+                    <button onclick="addToCart('risole', 2.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/enroladinho.jpg" alt="ENROLADINHO">
+                    <p>ENROLADINHO DE VINA</p>
+                    <p>R$ 2,00</p>
+                    <button onclick="addToCart('enroladinho', 2.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/empadao.jpg" alt="EMPADÃO">
+                    <p>EMPADÃO</p>
+                    <p>R$ 12,00</p>
+                    <button onclick="addToCart('empadão', 12.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/esfiha.jpg" alt="ESFIHA">
+                    <p>ESFIHA</p>
+                    <p>R$ 5,00</p>
+                    <button onclick="addToCart('esfiha', 5.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/pizza.jpg" alt="PIZZA">
+                    <p>PIZZA</p>
+                    <p>R$ 9,50</p>
+                    <button onclick="addToCart('pizza', 9.50)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/bolinha-queijo-ervas.jpg" alt="BOLINHA DE QUEIJO">
+                    <p>BOLINHA DE QUEIJO</p>
+                    <p>R$ 1,50</p>
+                    <button onclick="addToCart('bolinha-queijo-ervas', 1.50)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/kibe.jpeg" alt="KIBE">
+                    <p>KIBE</p>
+                    <p>R$ 2,00</p>
+                    <button onclick="addToCart('kibe', 2.00)">Comprar</button>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/maxresdefault.jpg" alt="JOELHO DE FRANGO">
+                    <p>JOELHO DE FRANGO</p>
+                    <p>R$ 6,00</p>
+                    <button onclick="addToCart('joelho de frango', 6.00)">Comprar</button>
+                </div>
+               
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Padaria Paraíso. Todos os direitos reservados.</p>
+            <p><a href="mailto:contato@padariaparaiso.com">Contato</a></p>
+            <div class="social-media">
+                <a href="https://facebook.com/padariaparaiso">Facebook</a>
+                <a href="https://instagram.com/padariaparaiso">Instagram</a>
+                
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
